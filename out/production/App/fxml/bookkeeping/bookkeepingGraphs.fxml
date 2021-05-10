@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.chart.AreaChart?>
+<?import javafx.scene.chart.BarChart?>
+<?import javafx.scene.chart.CategoryAxis?>
+<?import javafx.scene.chart.LineChart?>
+<?import javafx.scene.chart.NumberAxis?>
+<?import javafx.scene.control.Accordion?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.control.TitledPane?>
+<?import javafx.scene.effect.Blend?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.bookkeeping.BookkeepingGraphsController">
+   <children>
+      <Text layoutX="239.0" layoutY="65.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Ksiegowość - Grafy" textAlignment="CENTER" wrappingWidth="322.0">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Text>
+      <ImageView fx:id="logoutOnlyIcon" fitHeight="67.0" fitWidth="56.0" layoutX="33.0" layoutY="25.0" pickOnBounds="true" preserveRatio="true" AnchorPane.leftAnchor="25.0" AnchorPane.topAnchor="25.0">
+         <image>
+            <Image url="@../../../resources/icons/kitchen/logOut.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="bookkeepingIcon" fitHeight="67.0" fitWidth="56.0" layoutX="719.0" layoutY="25.0" pickOnBounds="true" preserveRatio="true" AnchorPane.rightAnchor="25.0" AnchorPane.topAnchor="25.0">
+         <image>
+            <Image url="@../../../resources/icons/bookkeeping/graph-icon.png" />
+         </image>
+      </ImageView>
+      <HBox alignment="CENTER" layoutX="14.0" layoutY="134.0" prefHeight="40.0" prefWidth="738.0" spacing="10.0">
+         <children>
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Przedstaw Okres Rozliczeniowy zaczynający się:">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Text>
+            <DatePicker fx:id="datePickerFrom" prefHeight="25.0" prefWidth="142.0" />
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="oraz kończący:" />
+            <DatePicker fx:id="datePickerTo" prefHeight="25.0" prefWidth="142.0" />
+         </children>
+      </HBox>
+      <Text layoutX="25.0" layoutY="100.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Wyloguj">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Text>
+      <Text layoutX="711.0" layoutY="99.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Księgowość" textAlignment="CENTER">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Text>
+      <Separator layoutX="14.0" layoutY="111.0" prefHeight="0.0" prefWidth="773.0" />
+      <Accordion layoutY="192.0" prefHeight="308.0" prefWidth="800.0">
+        <panes>
+          <TitledPane fx:id="barChartPane" text="Bar Chart">
+            <content>
+              <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                     <children>
+                        <BarChart fx:id="barChart" legendVisible="false" prefHeight="232.0" prefWidth="798.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                          <xAxis>
+                            <CategoryAxis side="BOTTOM" />
+                          </xAxis>
+                          <yAxis>
+                            <NumberAxis side="LEFT" />
+                          </yAxis>
+                        </BarChart>
+                     </children>
+                  </AnchorPane>
+            </content>
+          </TitledPane>
+          <TitledPane fx:id="lineChartPane" text="Line Chart">
+            <content>
+              <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                     <children>
+                        <LineChart fx:id="lineChart" legendVisible="false" prefHeight="232.0" prefWidth="798.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                          <xAxis>
+                            <CategoryAxis side="BOTTOM" />
+                          </xAxis>
+                          <yAxis>
+                            <NumberAxis side="LEFT" />
+                          </yAxis>
+                        </LineChart>
+                     </children>
+                  </AnchorPane>
+            </content>
+          </TitledPane>
+          <TitledPane fx:id="areaChartPane" text="Area Chart">
+            <content>
+              <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                     <children>
+                        <AreaChart fx:id="areaChart" legendVisible="false" prefHeight="232.0" prefWidth="798.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                          <xAxis>
+                            <CategoryAxis side="BOTTOM" />
+                          </xAxis>
+                          <yAxis>
+                            <NumberAxis side="LEFT" />
+                          </yAxis>
+                        </AreaChart>
+                     </children>
+                  </AnchorPane>
+            </content>
+          </TitledPane>
+        </panes>
+         <effect>
+            <Blend />
+         </effect>
+      </Accordion>
+   </children>
+</AnchorPane>

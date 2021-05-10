@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Group?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.bookkeeping.BookkeepingController">
+    <children>
+      <Text layoutX="239.0" layoutY="65.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Ksiegowość" textAlignment="CENTER" wrappingWidth="322.0">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Text>
+        <ImageView fx:id="logoutOnlyIcon" fitHeight="67.0" fitWidth="56.0" layoutX="33.0" layoutY="25.0" pickOnBounds="true" preserveRatio="true" AnchorPane.leftAnchor="25.0" AnchorPane.topAnchor="25.0">
+            <image>
+                <Image url="@../../../resources/icons/kitchen/logOut.png" />
+            </image>
+        </ImageView>
+        <ImageView fx:id="graphIcon" fitHeight="67.0" fitWidth="56.0" layoutX="719.0" layoutY="25.0" pickOnBounds="true" preserveRatio="true" AnchorPane.rightAnchor="25.0" AnchorPane.topAnchor="25.0">
+            <image>
+                <Image url="@../../../resources/icons/bookkeeping/graph-icon.png" />
+            </image>
+        </ImageView>
+      <Group layoutX="239.0" layoutY="143.0">
+         <children>
+            <Text layoutY="12.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Okres Rozliczeniowy:">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Text>
+            <DatePicker fx:id="fromDatePicker" layoutX="136.0" layoutY="-6.0" prefHeight="25.0" prefWidth="142.0" />
+            <Text layoutX="286.0" layoutY="12.0" strokeType="OUTSIDE" strokeWidth="0.0" text="-&gt;" />
+            <DatePicker fx:id="toDatePicker" layoutX="307.0" layoutY="-6.0" prefHeight="26.0" prefWidth="142.0" />
+            <Button fx:id="refreshButton" layoutX="467.0" layoutY="-7.0" mnemonicParsing="false">
+               <graphic>
+                  <ImageView fx:id="refreshIcon" fitHeight="20.0" fitWidth="23.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../resources/icons/bookkeeping/refresh.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Button>
+         </children>
+      </Group>
+      <Text layoutX="25.0" layoutY="100.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Wyloguj">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Text>
+      <Text layoutX="716.0" layoutY="100.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Wykresy">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Text>
+      <Text layoutX="14.0" layoutY="157.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Tabela Paragonów">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Text>
+      <Separator layoutX="14.0" layoutY="111.0" prefHeight="0.0" prefWidth="773.0" />
+      <Button fx:id="pdfButton" layoutX="650.0" layoutY="447.0" mnemonicParsing="false" prefHeight="48.0" prefWidth="136.0" text="Raport">
+         <font>
+            <Font size="18.0" />
+         </font>
+         <graphic>
+            <ImageView fx:id="pdfIcon" fitHeight="25.0" fitWidth="38.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../resources/icons/bookkeeping/pdf-icon.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <TableView fx:id="transactionsTable" layoutX="14.0" layoutY="179.0" prefHeight="261.0" prefWidth="773.0">
+        <columns>
+            <TableColumn fx:id="tableNumberColumn" prefWidth="75.0" text="Numer Stolika" />
+            <TableColumn fx:id="waiterColumn" prefWidth="75.0" text="Obsługa" />
+            <TableColumn fx:id="dateColumn" prefWidth="75.0" text="Data" />
+            <TableColumn fx:id="hourColumn" prefWidth="75.0" text="Godzina" />
+            <TableColumn fx:id="finalPriceColumn" prefWidth="75.0" text="Zapłacono" />
+        </columns>
+         <columnResizePolicy>
+            <TableView fx:constant="CONSTRAINED_RESIZE_POLICY" />
+         </columnResizePolicy>
+      </TableView>
+    </children>
+</AnchorPane>

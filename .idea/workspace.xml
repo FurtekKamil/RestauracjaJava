@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="88736b1b-0670-444b-9ae8-3cbf7ccd0086" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/tests/controller/hall/MakeOrderControllerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/controller/hall/hallControllerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/App.iml" beforeDir="false" afterPath="$PROJECT_DIR$/App.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/controller/hall/MakeOrderController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/controller/hall/MakeOrderController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/controller/hall/hallController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/controller/hall/HallController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fxml/hall/hall.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/fxml/hall/hall.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/models/dao/UsersDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/models/dao/UsersDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/models/entity/Users.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/models/entity/Users.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="JUnit3 Test Class" />
+        <option value="JUnit4 Test Class" />
+        <option value="JUnit5 Test Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1qyelyqUQpsUJeY4EHQCjV6enOU" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="JPA.DatabaseSchemaImportDialog" value="d655553f-6173-4c15-a12f-99cb9b330707" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit3" value="junit.framework.TestCase" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
+    <property name="database.data.extractors.current.export.id" value="SQL Inserts" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/fxml/hall" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\kamie\Documents\GitHub\20-21-pz-projekt-lab4-l4_g2_sliwa_furtek_wysocki_zebzda\App\src\fxml\hall" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\kamie\Documents\GitHub\20-21-pz-projekt-lab4-l4_g2_sliwa_furtek_wysocki_zebzda\App\resources" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+      <recent name="junit.framework.TestCase" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="controller.hall" />
+      <recent name="controller.administator" />
+    </key>
+    <key name="ImportMappingsDialog.RecentPackages">
+      <recent name="applikacja.dao" />
+      <recent name="" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="Main" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="applikacja.Main" />
+      <module name="App" />
+      <option name="VM_PARAMETERS" value="--module-path &quot;C:\Program Files\Java\javafx-sdk-16\lib&quot; --add-modules javafx.controls,javafx.fxml" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="applikacja.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AdminControllerTest.GetProductListTestZeroRows" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="App" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="controller.administator.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="controller.administator" />
+      <option name="MAIN_CLASS_NAME" value="controller.administator.AdminControllerTest" />
+      <option name="METHOD_NAME" value="GetProductListTestZeroRows" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AdminControllerTest.testGetProductList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="App" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="controller.administator.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="controller.administator" />
+      <option name="MAIN_CLASS_NAME" value="controller.administator.AdminControllerTest" />
+      <option name="METHOD_NAME" value="testGetProductList" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="All in App" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="App" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="addUserControllerTest.bCryptPassword" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="App" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="controller.administator.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="controller.administator" />
+      <option name="MAIN_CLASS_NAME" value="controller.administator.addUserControllerTest" />
+      <option name="METHOD_NAME" value="bCryptPassword" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="hallControllerTest.getOrdersTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="App" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="controller.hall.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="controller.hall" />
+      <option name="MAIN_CLASS_NAME" value="controller.hall.hallControllerTest" />
+      <option name="METHOD_NAME" value="getOrdersTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.Main" />
+      <item itemvalue="JUnit.addUserControllerTest.bCryptPassword" />
+      <item itemvalue="JUnit.AdminControllerTest.testGetProductList" />
+      <item itemvalue="JUnit.All in App" />
+      <item itemvalue="JUnit.hallControllerTest.getOrdersTest" />
+      <item itemvalue="JUnit.AdminControllerTest.GetProductListTestZeroRows" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.AdminControllerTest.GetProductListTestZeroRows" />
+        <item itemvalue="JUnit.hallControllerTest.getOrdersTest" />
+        <item itemvalue="JUnit.All in App" />
+        <item itemvalue="JUnit.AdminControllerTest.testGetProductList" />
+        <item itemvalue="JUnit.addUserControllerTest.bCryptPassword" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="88736b1b-0670-444b-9ae8-3cbf7ccd0086" name="Default Changelist" comment="" />
+      <created>1618056412808</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1618056412808</updated>
+      <workItem from="1618056414892" duration="60000" />
+      <workItem from="1618056495175" duration="70000" />
+      <workItem from="1618056633701" duration="52000" />
+      <workItem from="1618058004832" duration="13422000" />
+      <workItem from="1618080648010" duration="9252000" />
+      <workItem from="1618244243286" duration="2817000" />
+      <workItem from="1618396899943" duration="452000" />
+      <workItem from="1618399962083" duration="1530000" />
+      <workItem from="1618410916360" duration="2750000" />
+      <workItem from="1618664141743" duration="4061000" />
+      <workItem from="1618672337894" duration="11286000" />
+      <workItem from="1618869197783" duration="6823000" />
+      <workItem from="1618913996451" duration="328000" />
+      <workItem from="1619019094592" duration="616000" />
+      <workItem from="1619092819738" duration="17286000" />
+      <workItem from="1619187031986" duration="3704000" />
+      <workItem from="1619210588938" duration="2962000" />
+      <workItem from="1619214339361" duration="1362000" />
+      <workItem from="1619362193552" duration="3684000" />
+      <workItem from="1619369481103" duration="4084000" />
+      <workItem from="1619385529653" duration="10083000" />
+      <workItem from="1619438089924" duration="3938000" />
+      <workItem from="1619457597217" duration="454000" />
+      <workItem from="1619463584944" duration="2756000" />
+      <workItem from="1619534234043" duration="2847000" />
+      <workItem from="1619556866168" duration="4290000" />
+      <workItem from="1619601535609" duration="3361000" />
+      <workItem from="1619611630689" duration="1646000" />
+      <workItem from="1619618509725" duration="2276000" />
+      <workItem from="1619693602938" duration="8059000" />
+      <workItem from="1619705292848" duration="310000" />
+      <workItem from="1619708542208" duration="77000" />
+      <workItem from="1619709164759" duration="162000" />
+      <workItem from="1619714295099" duration="202000" />
+      <workItem from="1619714544572" duration="187000" />
+      <workItem from="1619728178905" duration="455000" />
+      <workItem from="1619803373593" duration="7063000" />
+      <workItem from="1619877923343" duration="147000" />
+      <workItem from="1620125038246" duration="2536000" />
+      <workItem from="1620139886997" duration="288000" />
+      <workItem from="1620140315531" duration="516000" />
+      <workItem from="1620207382915" duration="95000" />
+      <workItem from="1620207697350" duration="685000" />
+      <workItem from="1620227083798" duration="2132000" />
+      <workItem from="1620497195999" duration="2514000" />
+      <workItem from="1620569084396" duration="7735000" />
+      <workItem from="1620581757588" duration="13655000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.NullPointerException" package="java.lang" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

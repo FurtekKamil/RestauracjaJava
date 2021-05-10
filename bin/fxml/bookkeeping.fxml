@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.bookkeepingController">
+    <children>
+        <HBox alignment="CENTER" prefHeight="296.0" prefWidth="600.0" AnchorPane.bottomAnchor="104.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+            <children>
+                <Label text="Zalogowano na panel Księgowości">
+                    <font>
+                        <Font size="36.0" />
+                    </font>
+                </Label>
+            </children>
+        </HBox>
+        <Button fx:id="logOutButton" layoutX="32.0" layoutY="340.0" mnemonicParsing="false" onAction="#logOutOnAction" text="LogOut" AnchorPane.bottomAnchor="35.0" AnchorPane.leftAnchor="35.0" />
+    </children>
+</AnchorPane>

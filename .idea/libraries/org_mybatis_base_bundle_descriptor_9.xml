@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="org.mybatis:base-bundle-descriptor:9" type="repository">
+    <properties maven-id="org.mybatis:base-bundle-descriptor:9" />
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/mybatis/base-bundle-descriptor/9/base-bundle-descriptor-9.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
